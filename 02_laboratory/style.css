@@ -1,0 +1,51 @@
+body{
+  padding-top: 20px;
+   padding-left: 100px;
+   padding-right: 100px;
+   background-color: rgb(238, 238, 238);
+}
+
+a{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+
+}
+a:hover{
+    color: rgb(1, 122, 202);
+}
+
+p {
+    font-size: 1em;
+    text-indent: 1.5em; 
+}
+article{
+    margin-top: 30px;
+}
+article h2{
+    margin-left: 20px; 
+}
+body h3{
+    margin-left: 35px; 
+    font-size: 22px;
+}
+body>a {
+    
+    text-decoration:underline;
+}
+article>a{
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration:underline;
+}
+hr{
+    align-items: center;
+}
+ol *,ul *{
+    margin-top: 10px;
+}
+table *{
+    margin: 9px;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+}
