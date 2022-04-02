@@ -7,57 +7,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="style.css" rel="stylesheet">
+    <style>
+        body>h1 {
+            text-align: center;
+            font-size: 22px;
+        }
+
+        body>a {
+            font-style: italic;
+        }
+
+        body>h2 {
+            text-align: center;
+        }
+
+        table tr th {
+            text-align: center;
+            font-weight: bold;
+            background-color: green;
+            color: rgb(185, 241, 52);
+        }
+
+        tr:nth-child(even) {
+            background-color: rgb(165, 165, 165);
+            color: rgb(13, 0, 255);
+        }
+
+        tr:nth-child(odd) {
+            background-color: rgb(255, 255, 255);
+            color: rgb(221, 42, 42);
+        }
+
+        tr:nth-child(5) {
+            background-color: rgb(135, 98, 98);
+            color: rgb(221, 42, 42);
+        }
+
+        tr:nth-of-type(4):hover,
+        tr:nth-of-type(6):hover {
+            cursor: pointer;
+        }
+
+        table * {
+            border: 1px solid red;
+            margin: 10px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        caption{
+            border: none;
+        }
+        tr>td:nth-of-type(5){
+            text-align: end;
+        }
+    </style>
 </head>
 
 <body>
     <h1 id="h1-biography" style="margin-left: 30px;">Друзі Решетніка Олексія Олександровича</h1>
 
+    <a href="index.html" alt="Назад на головну">Назад на головну</a>
 
-    <a href="index.html"  alt="Назад на головну">Назад на головну</a>
-    
     <h2>Мої друзі</h2>
     <table width="100%" cellpadding="5">
         <caption>Персональні дані друзів</caption>
         <tr>
-         <th>«Прізвище»</th>
-         <th>«Ім’я»</th>
-         <th>«Дата народження»</th>
-         <th>«Адреса проживання»</th>
-         <th>«Контактний телефон»</th>
+            <th>«Прізвище»</th>
+            <th>«Ім’я»</th>
+            <th>«Дата народження»</th>
+            <th>«Адреса проживання»</th>
+            <th>«Контактний телефон»</th>
         </tr>
+
         <tr>
-        <td>Петров</td>
-        <td>Пето</td>
-        <td>Петрович</td>
-        <td>Петровчівня 37</td>
-        <td>097-25-14-255</td>
-         
-       </tr>
-       <tr>
-        <td>Васільєв</td>
-        <td>Василь</td>
-        <td>Васильович</td>
-        <td>Василівна 12</td>
-        <td>067-44-55-965</td>
-         
-       </tr>
-       <tr>
-        <td>Олексієв</td>
-        <td>Олексій</td>
-        <td>Олександрович</td>
-        <td>Олексіївка 70</td>
-        <td>097-88-42-152</td>
-         
-       </tr>
-       <tr>
-        <td>Михайлюк</td>
-        <td>Михайло</td>
-        <td>Михайлович</td>
-        <td>Михайлівка 51</td>
-        <td>095-66-44-851</td>
-         
-       </tr>
-      </table>
+            <td>Петров</td>
+            <td>Пето</td>
+            <td>Петрович</td>
+            <td>Петровчівня 37</td>
+            <td>097-25-14-255</td>
+        </tr>
+
+        <tr>
+            <td>Васільєв</td>
+            <td>Василь</td>
+            <td>Васильович</td>
+            <td>Василівна 12</td>
+            <td>067-44-55-965</td>
+        </tr>
+
+        <tr>
+            <td>Олексієв</td>
+            <td>Олексій</td>
+            <td>Олександрович</td>
+            <td>Олексіївка 70</td>
+            <td>097-88-42-152</td>
+        </tr>
+
+        <tr>
+            <td>Михайлюк</td>
+            <td>Михайло</td>
+            <td>Михайлович</td>
+            <td>Михайлівка 51</td>
+            <td>095-66-44-851</td>
+        </tr>
+    </table>
 </body>
 
 </html>
