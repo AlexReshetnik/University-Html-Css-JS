@@ -1,0 +1,70 @@
+body > h1 {
+    text-align: center;
+    font-size: 22px;
+}
+
+body > a {
+    font-style: italic;
+}
+
+body > h2:nth-of-type(1) {
+    text-align: center;
+}
+
+ul > li:nth-child(odd) {
+    background-color: rgb(165, 165, 165);
+    color: rgb(13, 0, 255);
+}
+
+ul > li:nth-child(even) {
+    background-color: rgb(255, 255, 255);
+    color: rgb(221, 42, 42);
+}
+
+body > h2:nth-of-type(2) {
+    text-align: center;
+}
+
+ol > li:nth-of-type(3):hover,
+ol > li:nth-of-type(5):hover {
+    cursor: pointer;
+}
+
+ol > li:nth-of-type(4) {
+    background-color: rgb(157, 157, 244);
+}
+* {
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    flex-wrap:wrap;
+}
+article{
+    width: 100%;
+}
+article>h2{
+    text-align: center;
+}
+
+/*desktop*/
+@media (min-width: 993px) {
+   
+    article {
+       flex: 50%;
+    }
+}
+
+/* Table devices */
+@media (min-width: 769px) and (max-width: 992px) {
+    article {
+        flex: 100%;
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 768px) {
+    article {
+        flex: 100%;
+    }
+}

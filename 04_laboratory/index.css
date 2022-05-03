@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+p {
+    font-size: 120%;
+}
+li:nth-of-type(1) > a {
+    color: rgb(255, 0, 0);
+}
+li:nth-of-type(1) > a:visited {
+    color: rgb(249, 130, 130);
+}
+
+li:nth-of-type(2) > a {
+    color: rgb(255, 0, 221);
+}
+li:nth-of-type(2) > a:visited {
+    color: rgb(255, 140, 240);
+}
+
+li:nth-of-type(3) > a {
+    color: rgb(53, 0, 199);
+}
+li:nth-of-type(3) > a:visited {
+    color: rgb(160, 127, 253);
+}
+
+li:nth-of-type(4) > a {
+    color: rgb(0, 255, 81);
+}
+li:nth-of-type(4) > a:visited {
+    color: rgb(120, 255, 163);
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    flex-wrap:wrap;
+}
+li { margin: 10px 0;
+    list-style: none;
+}
+
+/*desktop*/
+@media (min-width: 993px) {
+    li {
+        flex: 1;
+    }
+}
+
+/* Table devices */
+@media (min-width: 769px) and (max-width: 992px) {
+    li {
+        flex: 50%;
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 768px) {
+    li {
+        flex: 100%;
+    }
+}

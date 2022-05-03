@@ -1,0 +1,119 @@
+h1 {
+    text-align: center;
+    font-size: 22px;
+}
+
+body > a {
+    font-style: italic;
+    float: left;
+}
+
+body > h3 {
+    text-align: center;
+}
+
+ul li {
+    margin: 20px;
+    display: inline-block;
+}
+
+ul li a {
+    padding: 7px;
+    border-radius: 15px;
+    border: 1px solid rgb(0, 0, 103);
+    background-color: blue;
+    color: black;
+    display: block;
+    width: 150px;
+    text-align: center;
+}
+
+ul li a:hover {
+    background-color: magenta;
+    color: blue;
+}
+
+ul li a:active {
+    background-color: yellow;
+    color: rgb(255, 0, 0);
+}
+
+article {
+    font-size: 120%;
+    border: 1px solid black;
+    float: left;
+    margin-bottom: 30px;
+   
+}
+
+
+article > h2 {
+    font-size: 120%;
+    margin-left: 40px;
+}
+article > p {
+    padding: 20px;
+}
+article:nth-of-type(1) {
+    background-color: rgb(153, 166, 250);
+    color: rgb(253, 59, 59);
+}
+article:nth-of-type(2) {
+    background-color: rgb(232, 199, 133);
+    color: rgb(255, 0, 221);
+}
+article:nth-of-type(3) {
+    background-color: rgb(126, 130, 233);
+    color: rgb(0, 8, 255);
+}
+article:nth-of-type(4) {
+    background-color: rgb(191, 0, 255);
+    color: rgb(246, 255, 0);
+}
+article:nth-of-type(5) {
+    background-color: rgba(29, 159, 220, 0.786);
+    color: rgb(225, 255, 0);
+}
+article > a {
+    font-weight: bold;
+    position: relative;
+   top: 20px;
+  
+}
+body > a:nth-last-child(2) {
+    text-transform: uppercase;
+}
+hr{
+    float: left;
+    width: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    text-align: center;
+    flex-wrap:wrap;
+}
+
+/*desktop*/
+@media (min-width: 993px) {
+    article {
+       flex: 33%;
+    }
+}
+
+/* Table devices */
+@media (min-width: 769px) and (max-width: 992px) {
+    article {
+        flex: 50%;
+    }
+    
+}
+
+/* Mobile devices */
+@media (max-width: 768px) {
+    article {
+        flex: 100%;
+    }
+}
