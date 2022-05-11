@@ -63,14 +63,14 @@ h1 {
   
 }
 /* Desktop devices */
-@media (min-width: 993px) {
+@media (min-width: 992px) {
     .container {
         grid-template-columns: 1fr 1fr 1fr;   
     }
 }
 
 /* Table devices */
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 992px) {
     .container {
         grid-template-columns: 1fr 1fr;    
     }

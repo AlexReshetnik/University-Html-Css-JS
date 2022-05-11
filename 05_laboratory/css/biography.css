@@ -2,7 +2,9 @@ h1 {
     text-align: center;
     font-size: 22px;
 }
-
+*{
+    font-family: 'Roboto Slab', serif;
+}
 body > a {
     font-style: italic;
     float: left;
@@ -41,9 +43,7 @@ ul li a:active {
 article {
     font-size: 120%;
     border: 1px solid black;
-    float: left;
     margin-bottom: 30px;
-   
 }
 
 
@@ -84,36 +84,13 @@ body > a:nth-last-child(2) {
     text-transform: uppercase;
 }
 hr{
-    float: left;
     width: 100%;
+    border: 1px solid rgb(0, 0, 0);
 }
 * {
     box-sizing: border-box;
 }
 section{
-    display: flex;
     text-align: center;
-    flex-wrap:wrap;
 }
 
-/*desktop*/
-@media (min-width: 992px) {
-    article {
-       flex: 33%;
-    }
-}
-
-/* Table devices */
-@media (min-width: 768px) and (max-width: 992px) {
-    article {
-        flex: 50%;
-    }
-    
-}
-
-/* Mobile devices */
-@media (max-width: 768px) {
-    article {
-        flex: 100%;
-    }
-}

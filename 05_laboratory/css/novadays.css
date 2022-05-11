@@ -35,36 +35,12 @@ ol > li:nth-of-type(4) {
 }
 * {
     box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
 }
-section{
-    display: flex;
-    flex-wrap:wrap;
-}
+
 article{
     width: 100%;
 }
 article>h2{
     text-align: center;
-}
-
-/*desktop*/
-@media (min-width: 992px) {
-   
-    article {
-       flex: 50%;
-    }
-}
-
-/* Table devices */
-@media (min-width: 768px) and (max-width: 992px) {
-    article {
-        flex: 100%;
-    }
-}
-
-/* Mobile devices */
-@media (max-width: 768px) {
-    article {
-        flex: 100%;
-    }
 }
