@@ -147,14 +147,14 @@ let instruction = `
 console.log(instruction);
 
 
-triangle(18, "hypotenuse",7, "opposite angle");
-triangle(7, "leg", 18, "hypotenuse");
-triangle(4, "leg", 5, "leg");
-triangle(5, "leg" , 60, "adjacent angle");
-triangle(4, "leg", 5, "leg");
-triangle(4, "hypotenuse", 3, "leg");
-triangle(4, "leg", 5, "hypotenuse");
-triangle(5, "leg" , 60, "adjacent angle");
+//triangle(18, "hypotenuse",7, "opposite angle");
+//triangle(7, "leg", 18, "hypotenuse");
+//triangle(4, "leg", 5, "leg");
+//triangle(5, "leg" , 60, "adjacent angle");
+/////triangle(4, "leg", 5, "leg");
+//triangle(4, "hypotenuse", 3, "leg");
+//triangle(4, "leg", 5, "hypotenuse");
+//triangle(5, "leg" , 60, "adjacent angle");
 //triangle(5, "leg" , 60, "adjacent angle");
 //triangle(5, "leg" , 10, "opposite angle");
 //triangle(5, "leg" , 60, "opposite angle");
