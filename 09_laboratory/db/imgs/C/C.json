@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Item - C1",
+        "shortname": "C1",
+        "price": 150,
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+    },
+    {
+        "id": 2,
+        "name": "Item - C2",
+        "shortname": "C2",
+        "price": 150,
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+    },
+    {
+        "id": 3,
+        "name": "Item - C3",
+        "shortname": "C3",
+        "price": 250,
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+    },
+    {
+        "id": 4,
+        "name": "Item - C4",
+        "shortname": "C4",
+        "price": 300,
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+    },
+    {
+        "id": 5,
+        "name": "Item - C5",
+        "shortname": "C5",
+        "price": 7450,
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+    }
+]

@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+body,
+html {
+    width: 100%;
+}
+header {
+    background-color: rgb(210, 210, 210);
+    padding: 5px;
+
+    padding-left: 10%;
+    display: flex;
+    color: rgb(123, 123, 123);
+}
+header > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(210, 210, 210);
+    font-size: 25px;
+    width: 150px;
+    height: 45px;
+    margin: 5px;
+    border-radius: 20px;
+}
+header > div:hover {
+    box-shadow: 0px 0px 10px #000008ab;
+}
+header > div:active {
+    background-color: rgb(149, 149, 149);
+}
+main {
+    align-items: center;
+}
+.container {
+    margin: 20px;
+}
+.container > fieldset {
+    border-radius: 26px;
+    padding: 20px;
+}
+fieldset > legend {
+    margin-left: 30px;
+    font-size: 120%;
+}
+#insertCategories {
+}
+a {
+    color: rgb(123, 123, 123);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(67, 67, 67);
+   
+}
+#insertCategories > h1 {
+    margin-left: 10px;
+}
+#insertCategories  p {
+    text-indent: 1em;
+}
+hr {
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+.item {
+    min-height: 200px;
+    margin: 20px;
+}
+img {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+    border-radius: 20px;
+    height: 200px;
+}
+h3 {
+    margin-left:230px ;
+    color: rgb(69, 69, 69);
+}
