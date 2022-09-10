@@ -4,8 +4,11 @@ window.addEventListener('DOMContentLoaded', () => {
     loadCatalog()
    
 });
-
+let links={}
 function GET(URI, ContentTypy) {
+    if(links[URI]){
+        return links[URI]
+    }
     return new Promise(function (resolve, reject) {
         let request = new XMLHttpRequest();
         request.open('GET', URI, true);
@@ -15,9 +18,11 @@ function GET(URI, ContentTypy) {
         request.addEventListener('readystatechange', function () {
             if (request.readyState === 4 && request.status === 200) {
                 if (ContentTypy == "text") {
+                    links[URI]=request.response
                     resolve(request.response)
                 }
                 if (ContentTypy == "json") {
+                    links[URI]=JSON.parse(request.response)
                     resolve(JSON.parse(request.response))
                 }
             } 
@@ -45,6 +50,7 @@ function loadCatalog() {
             document.querySelector("legend").innerHTML = "«Categories»"
         })
     })
+    
 }
 
 function goToCategory(category) {
